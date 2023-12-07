@@ -23,6 +23,8 @@
 		}
 	],
 	"TargetPlatforms": [
-		"WindowsNoEditor"
+		"WindowsNoEditor",
+		"Windows",
+		"Mac"
 	]
 }
