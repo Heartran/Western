@@ -24,4 +24,4 @@ For more details, feel free to explore the project's GitHub page directly.
 If you would like to contribute to the development of this game, please review the contributing guidelines and submit your pull requests.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the `LICENSE` file for details.
