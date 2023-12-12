@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		74CD81D6D7B1EE35766BACDA = {isa = PBXBuildFile; fileRef = CD787BE9E49835B0D463A4B5; }; /* Western.cpp */
+		B2DB0AB6E1031AD2EBBB3429 = {isa = PBXBuildFile; fileRef = DEDD48900FF067498D488190; }; /* Assets.xcassets */
+		E66296A468EC7E695A793044 = {isa = PBXBuildFile; fileRef = 67868ED931437EEFA95DF6FF; }; /* LaunchScreen.storyboardc */
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4A135E9B34C323207AFF3DB = {isa = PBXFileReference; explicitFileType = file.txt; name = "Western.Build.cs"; path = "../Source/Western.Build.cs"; sourceTree = SOURCE_ROOT; };
+		CF746C0FF4BEC24D1E04EB4B = {isa = PBXFileReference; explicitFileType = file.txt; name = "Western.Target.cs"; path = "../Source/Western.Target.cs"; sourceTree = SOURCE_ROOT; };
+		CD787BE9E49835B0D463A4B5 = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Western.cpp"; path = "../Source/Western.cpp"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 = {isa = PBXFileReference; explicitFileType = file.txt; name = "README.md"; path = "../../README.md"; sourceTree = SOURCE_ROOT; };
+		F519DBC82B7C343B37F88500 = {isa = PBXFileReference; explicitFileType = file.txt; name = "Western.uproject"; path = "../../Western.uproject"; sourceTree = SOURCE_ROOT; };
+		340E0BEA9176D6BE0E8B4E00 = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "Western"; path = "Western"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDD48900FF067498D488190 = {isa = PBXFileReference; explicitFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "/Users/Shared/Epic Games/UE_5.3/Engine/Build/Mac/Resources/Assets.xcassets"; sourceTree = "<absolute>"; };
+		67868ED931437EEFA95DF6FF = {isa = PBXFileReference; explicitFileType = wrapper.storyboardc; name = "LaunchScreen.storyboardc"; path = "/Users/Shared/Epic Games/UE_5.3/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc"; sourceTree = "<absolute>"; };
+		7CE488BE6FCB901FDF48CB5F = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Western.xcconfig"; path = "XcconfigsMac/Western.xcconfig"; sourceTree = "<group>"; };
+		BAC07FDECDD7201A69048BD7 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Western_DebugGame.xcconfig"; path = "XcconfigsMac/Western_DebugGame.xcconfig"; sourceTree = "<group>"; };
+		85E7876E18DC868DEE52B087 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Western_Development.xcconfig"; path = "XcconfigsMac/Western_Development.xcconfig"; sourceTree = "<group>"; };
+		F9B3EFB43778A9658BC859E6 = {isa = PBXFileReference; explicitFileType = test.xcconfig; name = "Western_Shipping.xcconfig"; path = "XcconfigsMac/Western_Shipping.xcconfig"; sourceTree = "<group>"; };
+		A773157AF31222939BAC554D = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info-Editor.Template.plist"; path = "../../../../../../Shared/Epic Games/UE_5.3/Engine/Intermediate/Build/Mac/Resources/Info-Editor.Template.plist"; sourceTree = "<group>"; };
+		C3E1163E67B7BA5BD78D2DEA = {isa = PBXFileReference; explicitFileType = text.plist; name = "Info.Template.plist"; path = "../../Build/Mac/Resources/Info.Template.plist"; sourceTree = "<group>"; };
+		0323554028CCAF53CC80B028 = {isa = PBXFileReference; explicitFileType = text.plist; name = "Sandbox.Server.entitlements"; path = "../../Build/Mac/Resources/Sandbox.Server.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A054D6EC39DE8842C9BC9CC9 = {
+			isa = PBXGroup;
+			children = (
+				2A91E0B71D1776AFDEE1454B /* Intermediate */,
+				940AC694D607EE88F16DFF10 /* README.md */,
+				F519DBC82B7C343B37F88500 /* Western.uproject */,
+				0AA3D9F60AD9C40F34D45E9D /* Products */,
+				990F8D32E6C825D0AEC78722 /* Resources */,
+				88B945A998712FEED9AC5D4C /* Xcconfigs */,
+				6F210FFF3E5A84899E588911 /* Metadata */,
+			);
+			sourceTree = "<group>";
+		};
+		2A91E0B71D1776AFDEE1454B = {
+			isa = PBXGroup;
+			children = (
+				9D39773EC6CB40592649E7DC /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/federico/Documents/Unreal Projects/Western/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		9D39773EC6CB40592649E7DC = {
+			isa = PBXGroup;
+			children = (
+				F4A135E9B34C323207AFF3DB /* Western.Build.cs */,
+				CF746C0FF4BEC24D1E04EB4B /* Western.Target.cs */,
+				CD787BE9E49835B0D463A4B5 /* Western.cpp */,
+			);
+			name = "Source";
+			path = "/Users/federico/Documents/Unreal Projects/Western/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		0AA3D9F60AD9C40F34D45E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340E0BEA9176D6BE0E8B4E00 /* Western */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990F8D32E6C825D0AEC78722 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEDD48900FF067498D488190 /* Assets.xcassets */,
+				67868ED931437EEFA95DF6FF /* LaunchScreen.storyboardc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		88B945A998712FEED9AC5D4C /* Xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				7CE488BE6FCB901FDF48CB5F /* Western.xcconfig */,
+				BAC07FDECDD7201A69048BD7 /* Western_DebugGame.xcconfig */,
+				85E7876E18DC868DEE52B087 /* Western_Development.xcconfig */,
+				F9B3EFB43778A9658BC859E6 /* Western_Shipping.xcconfig */,
+			);
+			name = Xcconfigs;
+			sourceTree = "<group>";
+		};
+		6F210FFF3E5A84899E588911 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				A773157AF31222939BAC554D /* Info-Editor.Template.plist */,
+				C3E1163E67B7BA5BD78D2DEA /* Info.Template.plist */,
+				0323554028CCAF53CC80B028 /* Sandbox.Server.entitlements */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXProject section */
+		9BC14DD88BDD00DB74B3110B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					66497CFE7C42A2E1AA031B5B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 69E06F7B8AB187164E657465 /* Build configuration list for PBXProject "Western" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = A054D6EC39DE8842C9BC9CC9;
+			productRefGroup = 0AA3D9F60AD9C40F34D45E9D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66497CFE7C42A2E1AA031B5B /* Western */,
+			);
+		};
+/* End PBXProject section */
+/* Begin Run_App section */
+		66497CFE7C42A2E1AA031B5B /* Western */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99E2400E069D6E9276B0AB7 /* Build configuration list for PBXNativeTarget "Western" */;
+			buildPhases = (
+				4A285A0D7376029CC337B71D /* Resources */,
+				C2E0FBE6C6A3C56E35009B11 /* Copy Executable and Staged Data into .app */,
+				8CE2F065002FF3A594D0360C /* Generate dsym for archive, and strip */,
+			);
+			dependencies = (
+			);
+			name = "Western";
+			passBuildSettingsInEnvironment = 1;
+			productType = "com.apple.product-type.application";
+			productReference = 340E0BEA9176D6BE0E8B4E00;
+			productName = "Western";
+		};
+/* End Run_App section */
+		C99E2400E069D6E9276B0AB7 /* Build configuration list for target Western */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF55C7AF7329CD0F724C7141 /* DebugGame */,
+				61025F3210306130F3AF20F3 /* Development */,
+				51D5DEA5B565D9FA3FC43F27 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		BF55C7AF7329CD0F724C7141 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC07FDECDD7201A69048BD7 /* Western_DebugGame.xcconfig */;
+			buildSettings = {
+			};
+			name = "DebugGame";
+		};
+		61025F3210306130F3AF20F3 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E7876E18DC868DEE52B087 /* Western_Development.xcconfig */;
+			buildSettings = {
+			};
+			name = "Development";
+		};
+		51D5DEA5B565D9FA3FC43F27 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B3EFB43778A9658BC859E6 /* Western_Shipping.xcconfig */;
+			buildSettings = {
+			};
+			name = "Shipping";
+		};
+/* Begin PBXResourcesBuildPhase section */
+		4A285A0D7376029CC337B71D = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2DB0AB6E1031AD2EBBB3429 /* Assets.xcassets in Resources */,
+				E66296A468EC7E695A793044 /* LaunchScreen.storyboardc in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		C2E0FBE6C6A3C56E35009B11 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Executable and Staged Data into .app";
+			inputPaths = (
+			);
+			outputPaths = (
+				"/dev/null"
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -eo pipefail\nSRC_EXE=\"${UE_BINARIES_DIR}/${UE_UBT_BINARY_SUBPATH}\"\nDEST_EXE=\"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\nDEST_EXE_DIR=`dirname \"${DEST_EXE}\"`\n\necho Copying executable and any standalone dylibs into ${DEST_EXE_DIR}\nmkdir -p \"${DEST_EXE_DIR}\"\nditto \"${SRC_EXE}\" \"${DEST_EXE}\"\n\n# Skip syncing if desired\nif [[ ${UE_SKIP_STAGEDDATA_SYNC} -eq 1 ]]; then exit 0; fi\n\n# When building engine projects, like UnrealGame, we don't have data to stage unless something has specified UE_OVERRIDE_STAGE_DIR\nif [[ -z ${UE_OVERRIDE_STAGE_DIR} ]]; then \nSTAGED_DIR=\"${UE_PROJECT_DIR}/Saved/StagedBuilds/${UE_TARGET_PLATFORM_NAME}\"\nelse\n  STAGED_DIR=\"${UE_OVERRIDE_STAGE_DIR}\"\nfi\nif [[ -z ${STAGED_DIR} ]]; then exit 0; fi\n# Make sure the staged directory exists and has files in it\nif [[ ! -e \"${STAGED_DIR}\" || ! $(ls -A \"${STAGED_DIR}\") ]]; then \n  echo =========================================================================================\n  echo \"WARNING: To run, you must have a valid staged build directory. The Staged location is:\"\n  echo \"  ${STAGED_DIR}\"\n  echo \"Use the editor's Platforms menu, or run a command like::\"\n  echo \"./RunUAT.sh BuildCookRun -platform=Mac -project=<project> -build -cook -stage -pak\"\n  echo =========================================================================================\n  exit -0 \nfi\n\necho \"Syncing ${STAGED_DIR} to ${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"\nrsync -a --delete --exclude=\"/Info.plist\" --exclude=\"/Manifest_*\" --exclude=\"/*.app\" \"${STAGED_DIR}/\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/UE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+/* Begin PBXShellScriptBuildPhase section */
+		8CE2F065002FF3A594D0360C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Generate dsym for archive, and strip";
+			inputPaths = (
+				"\"$(CONFIGURATION_BUILD_DIR)/$(EXECUTABLE_PATH)\""
+			);
+			outputPaths = (
+				"\"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)\""
+			);
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# Run the wrapper dsym generator\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/GenerateUniversalDSYM.sh\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\nstrip -no_code_signature_warning -D \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n\n# Remove any unused architectures from dylibs in the .app (param1) that don't match the executable (param2). Also error if a dylib is missing arches\n\"${UE_ENGINE_DIR}/Build/BatchFiles/Mac/ThinApp.sh\" \"${CONFIGURATION_BUILD_DIR}/${CONTENTS_FOLDER_PATH}\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+		69E06F7B8AB187164E657465 /* Build configuration list for target Western */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD15676A84BFB5041D544C3 /* DebugGame */,
+				263D053184D95B0A508A4B56 /* Development */,
+				082DDBD9414297EA3E9C9FAC /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Development";
+		};
+		EDD15676A84BFB5041D544C3 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = "DebugGame";
+		};
+		263D053184D95B0A508A4B56 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = "Development";
+		};
+		082DDBD9414297EA3E9C9FAC /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos appletvsimulator appletvos";
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = "Shipping";
+		};
+	};
+	rootObject = 9BC14DD88BDD00DB74B3110B /* Project object */;
+}
